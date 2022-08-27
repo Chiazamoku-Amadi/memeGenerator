@@ -75,7 +75,7 @@ function Meme() {
         </button>
       </form>
       <div className="memeImage">
-        <img src={meme.randomImage} alt="memeImage" className="image" />
+        <img src={meme.randomImage} alt="" className="image" />
         <h2 className="topText">{meme.topText}</h2>
         <h2 className="bottomText">{meme.bottomText}</h2>
       </div>
