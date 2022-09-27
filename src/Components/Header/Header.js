@@ -6,7 +6,6 @@ function Header() {
   return (
     <header className="header">
       <img src={logo} alt="header-logo" className="logo" />
-      <h2 className="header-text">React Course - Project 3</h2>
     </header>
   );
 }

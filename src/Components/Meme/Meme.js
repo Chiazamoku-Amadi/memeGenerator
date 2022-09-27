@@ -71,11 +71,15 @@ function Meme() {
           />
         </fieldset>
         <button type="submit" onClick={getMemeImage}>
-          Get a new meme image
+          Get New Meme
         </button>
       </form>
       <div className="memeImage">
-        <img src={meme.randomImage} alt="" className="image" />
+        <img
+          src={meme.randomImage}
+          alt=""
+          className={meme.randomImage === "" ? "noDisplay" : "image"}
+        />
         <h2 className="topText">{meme.topText}</h2>
         <h2 className="bottomText">{meme.bottomText}</h2>
       </div>
